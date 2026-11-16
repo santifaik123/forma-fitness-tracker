@@ -1,6 +1,6 @@
 const prefix = 'forma-shell-v1:'
-const cacheName = prefix + '062cb63e6320b6e1d8'
-const files = ["apple-touch-icon.png","assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2","assets/geist-latin-wght-normal-BgDaEnEv.woff2","assets/index-BKj9Zjgz.css","assets/index-CpwTXoEO.js","icon-192.png","icon-512.png","index.html","licenses.txt","manifest.webmanifest","robots.txt"]
+const cacheName = prefix + '187a0c789f7de6e409'
+const files = ["apple-touch-icon.png","assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2","assets/geist-latin-wght-normal-BgDaEnEv.woff2","assets/index-DXdOFbwL.js","assets/index-dI5PL7la.css","icon-192.png","icon-512.png","index.html","licenses.txt","manifest.webmanifest","robots.txt"]
 const scope = self.registration.scope
 const cacheKey = url => new URL(url, scope).href
 const shell = cacheKey('index.html')
